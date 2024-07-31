@@ -35,4 +35,7 @@ def calculate_entropy(password):
       else:
         strength = "Weak"
 
+        return strength, length_criteria, upper_criteria, lower_criteria, digit_criteria, special_criteria, entropy
+        
+
 
