@@ -1,4 +1,4 @@
-import re
+import string
 import math
 
 def calculate_entropy(password):
@@ -22,4 +22,4 @@ def calculate_entropy(password):
      digit_criteria = any(c.isdigit() for c in password)
      special_criteria = any(c in string.punctuation for c in password)
 
-     
+
