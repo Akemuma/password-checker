@@ -11,3 +11,7 @@ def calculate_entropy(password):
         pool_size += 10
     if any(c in string.punctuation for c in password):
         pool_size += len(string.punctuation)
+
+    entropy = len(password) * math.log2(pool_size) if pool_size > 0 else 0
+    return entropy
+    
