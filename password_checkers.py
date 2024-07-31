@@ -52,4 +52,9 @@ def provide_feedback(password):
     if not special_criteria:
          feedback += " - Include at least one special character.\n"
 
+         feedback += f"Entropy: {entropy:.2f} bits\n"
+    feedback += "\n--- Created by Ashley Kemuma ---\n"
+
+    
+
 
