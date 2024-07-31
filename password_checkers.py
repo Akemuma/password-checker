@@ -17,4 +17,4 @@ def calculate_entropy(password):
 
  def check_password_strength(password):  
      length_criteria = len(password) >= 8
-      
+     upper_criteria = any(c.isupper() for c in password) 
