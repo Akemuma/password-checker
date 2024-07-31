@@ -55,6 +55,6 @@ def provide_feedback(password):
          feedback += f"Entropy: {entropy:.2f} bits\n"
     feedback += "\n--- Created by Ashley Kemuma ---\n"
 
-    
+    return feedback
 
 
