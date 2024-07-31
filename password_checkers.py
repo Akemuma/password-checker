@@ -22,4 +22,8 @@ def calculate_entropy(password):
      digit_criteria = any(c.isdigit() for c in password)
      special_criteria = any(c in string.punctuation for c in password)
 
+     criteria_met = sum([length_criteria, upper_criteria, lower_criteria, digit_criteria, special_criteria])
+
+      entropy = calculate_entropy(password)
+
 
