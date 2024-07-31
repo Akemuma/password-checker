@@ -14,5 +14,7 @@ def calculate_entropy(password):
 
     entropy = len(password) * math.log2(pool_size) if pool_size > 0 else 0
     return entropy
-    
- def check_password_strength(password):   
+
+ def check_password_strength(password):  
+     length_criteria = len(password) >= 8
+      
