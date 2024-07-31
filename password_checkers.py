@@ -32,6 +32,7 @@ def calculate_entropy(password):
         strength = "Strong"
       elif criteria_met >= 3 and entropy >= 40:
         strength = "Moderate"
-      
+      else:
+        strength = "Weak"
 
 
