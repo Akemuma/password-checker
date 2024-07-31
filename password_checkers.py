@@ -28,6 +28,7 @@ def calculate_entropy(password):
 
       if criteria_met == 5 and entropy >= 60:
         strength = "Very Strong"
-      
+      elif criteria_met >= 4 and entropy >= 50:
+        strength = "Strong"
 
 
