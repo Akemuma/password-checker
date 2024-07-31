@@ -42,5 +42,7 @@ def provide_feedback(password):
     
     feedback = f"Password Strength: {strength}\n"
     if not length_criteria:
+        feedback += " - Increase the length to at least 8 characters.\n"
+    if not upper_criteria:
 
 
