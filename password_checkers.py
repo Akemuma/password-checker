@@ -57,4 +57,7 @@ def provide_feedback(password):
 
     return feedback
 
+password = input("Enter your password: ")
+print(provide_feedback(password))
+
 
