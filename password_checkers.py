@@ -50,5 +50,6 @@ def provide_feedback(password):
     if not digit_criteria:
         feedback += " - Include at least one digit.\n"
     if not special_criteria:
+         feedback += " - Include at least one special character.\n"
 
 
