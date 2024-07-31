@@ -48,5 +48,7 @@ def provide_feedback(password):
     if not lower_criteria:
         feedback += " - Include at least one lowercase letter.\n"
     if not digit_criteria:
+        feedback += " - Include at least one digit.\n"
+    if not special_criteria:
 
 
