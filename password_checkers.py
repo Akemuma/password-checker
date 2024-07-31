@@ -20,3 +20,6 @@ def calculate_entropy(password):
      upper_criteria = any(c.isupper() for c in password) 
      lower_criteria = any(c.islower() for c in password)
      digit_criteria = any(c.isdigit() for c in password)
+     special_criteria = any(c in string.punctuation for c in password)
+
+     
