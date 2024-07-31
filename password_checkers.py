@@ -44,5 +44,7 @@ def provide_feedback(password):
     if not length_criteria:
         feedback += " - Increase the length to at least 8 characters.\n"
     if not upper_criteria:
+        feedback += " - Include at least one uppercase letter.\n"
+    if not lower_criteria:
 
 
